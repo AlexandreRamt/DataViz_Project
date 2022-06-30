@@ -26,7 +26,8 @@ def get_plot(df, year):
         barmode='stack',
         yaxis_title="Province",
         yaxis={'categoryorder':'total ascending'},
-        font_family='Serif'
+        font_family='Serif',
+        dragmode = False
     )
 
 
